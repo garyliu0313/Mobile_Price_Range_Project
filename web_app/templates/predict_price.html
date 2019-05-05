@@ -1,0 +1,126 @@
+{%extends 'layout.html' %}
+{%block content%}
+
+<form method = 'POST' class = 'input'>
+    Battery:<br>
+    <input type="radio" name="battery_power" value="500" checked> <500mA<br>
+    <input type="radio" name="battery_power" value="1000"> <1000mA<br>
+    <input type="radio" name="battery_power" value="1500"> <1500mA<br>
+    <input type="radio" name="battery_power" value="2000"> <2000mA
+    <br><br>
+    Bluetooth:<br>
+    <input type="radio" name="blue" value="1" checked> True<br>
+    <input type="radio" name="blue" value="0"> False<br>
+    <br>
+    clock_speed:<br>
+    <input type="radio" name="clock_speed" value="0.5" checked> <0.5<br>
+    <input type="radio" name="clock_speed" value="1.0"> <1.0<br>
+    <input type="radio" name="clock_speed" value="1.5"> <1/5<br>
+    <input type="radio" name="clock_speed" value="2.0"> <2.0<br>
+    <input type="radio" name="clock_speed" value="2.5" checked> <2.5<br>
+    <input type="radio" name="clock_speed" value="3.0"> <3.0<br>
+    <br>
+    HasDual_sim:<br>
+    <input type="radio" name="dual_sim" value="1" checked> True<br>
+    <input type="radio" name="dual_sim" value="0"> False<br>
+    <br>
+    Front_Camera_Mega_Pixel:<br>
+    <input type="radio" name="fc" value="0" checked> <0<br>
+    <input type="radio" name="fc" value="5"> <5<br>
+    <input type="radio" name="fc" value="10"> <10<br>
+    <input type="radio" name="fc" value="15"> <15<br>
+    <input type="radio" name="fc" value="20" checked> <20<br>
+    <br>
+    Has_4g:<br>
+    <input type="radio" name="four_g" value="1" checked> True<br>
+    <input type="radio" name="four_g" value="0"> False<br>
+    <br>
+    Internal_Memory_inGb:<br>
+    <input type="radio" name="int_memory" value="16" checked> <0<br>
+    <input type="radio" name="int_memory" value="32"> <5<br>
+    <input type="radio" name="int_memory" value="48"> <10<br>
+    <input type="radio" name="int_memory" value="64"> <15<br>
+    <br>
+    Depth:<br>
+    <input type="radio" name="m_dep" value="0" checked> <0cm<br>
+    <input type="radio" name="m_dep" value="0.25"> <0.25cm<br>
+    <input type="radio" name="m_dep" value="0.5"> <0.5cm<br>
+    <input type="radio" name="m_dep" value="1.0"> <1cm<br>
+    <br>
+    Weight:<br>
+    <input type="radio" name="mobile_wt" value="70" checked> <70g<br>
+    <input type="radio" name="mobile_wt" value="140"> <140g<br>
+    <input type="radio" name="mobile_wt" value="200"> <200g<br>
+    <br>
+    Number_Of_Cores:<br>
+    <input type="radio" name="n_cores" value="2" checked> <2<br>
+    <input type="radio" name="n_cores" value="4"> <4<br>
+    <input type="radio" name="n_cores" value="6"> <6<br>
+    <input type="radio" name="n_cores" value="8"> <8<br>
+    <br>
+    Primary_camera_pixels:<br>
+    <input type="radio" name="pc" value="0" checked> 0M<br>
+    <input type="radio" name="pc" value="5"> <5M<br>
+    <input type="radio" name="pc" value="10"> <10M<br>
+    <input type="radio" name="pc" value="15"> <15M<br>
+    <input type="radio" name="pc" value="20"> <20M<br>
+    <br>
+    Pixel_Resolution_Height:<br>
+    <input type="radio" name="px_height" value="500" checked> 500pixels<br>
+    <input type="radio" name="px_height" value="1000"> <1000pixels<br>
+    <input type="radio" name="px_height" value="1500"> <1500pixels<br>
+    <input type="radio" name="px_height" value="2000"> <2000pixels<br>
+    <br>
+    Pixel_Resolution_Width:<br>
+    <input type="radio" name="px_width" value="500" checked> 500pixels<br>
+    <input type="radio" name="px_width" value="1000"> <1000pixels<br>
+    <input type="radio" name="px_width" value="1500"> <1500pixels<br>
+    <input type="radio" name="px_width" value="2000"> <2000pixels<br>
+    <br>
+    Ram:<br>
+    <input type="radio" name="ram" value="500" checked> 500<br>
+    <input type="radio" name="ram" value="1000"> <1000<br>
+    <input type="radio" name="ram" value="2000"> <2000<br>
+    <input type="radio" name="ram" value="3000"> <3000<br>
+    <input type="radio" name="ram" value="4000"> <4000<br>
+    <br>
+    Screen_Height_cm:<br>
+    <input type="radio" name="sc_h" value="5" checked> <5cm<br>
+    <input type="radio" name="sc_h" value="10"> <10cm<br>
+    <input type="radio" name="sc_h" value="15"> <15cm<br>
+    <input type="radio" name="sc_h" value="20"> <20cm<br>
+    <br>
+    Scree_Width_cm:<br>
+    <input type="radio" name="sc_w" value="5" checked> <5cm<br>
+    <input type="radio" name="sc_w" value="10"> <10cm<br>
+    <input type="radio" name="sc_w" value="15"> <15cm<br>
+    <input type="radio" name="sc_w" value="20"> <20cm<br>
+    <br>
+    longest_talktime:<br>
+    <input type="radio" name="talk_time" value="5" checked> <5h<br>
+    <input type="radio" name="talk_time" value="10"> <10h<br>
+    <input type="radio" name="talk_time" value="15"> <15h<br>
+    <input type="radio" name="talk_time" value="20"> <20h<br>
+    <br>
+    Has_3G:<br>
+        <input type="radio" name="three_g" value="1" checked> True<br>
+    <input type="radio" name="three_g" value="0"> False<br>
+    <br>
+    Is_Touchscreen:<br>
+     <input type="radio" name="touch_screen" value="1" checked> True<br>
+    <input type="radio" name="touch_screen" value="0"> False<br>
+    <br>
+    Has_Wifi:<br>
+    <input type="radio" name="wifi" value="1" checked> True<br>
+    <input type="radio" name="wifi" value="0"> False<br>
+    <br>
+    <!--Expected_Price_Range:<br>-->
+    <!--<input type="radio" name="price_range" value="0" checked> <200$<br>-->
+    <!--<input type="radio" name="price_range" value="1"> <500$<br>-->
+    <!--<input type="radio" name="price_range" value="2"> <800$<br>-->
+    <!--<input type="radio" name="price_range" value="3"> <1100$<br>-->
+    <br>
+    <input type="submit" name = "submit" value="Submit">
+
+</form>
+{% endblock %}

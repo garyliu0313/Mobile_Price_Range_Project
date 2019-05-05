@@ -1,0 +1,26 @@
+*{
+margin:0;
+padding:0;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.navigation{
+    width: 100%;
+    height: 48px:
+    background-color: black;
+}
+
+.navigation ul li{
+    display: inline-block
+    height: 100%
+    }
+.navigation ul li a{
+    display: inline-block
+    line_height: 75px
+    height: 100%
+    color:white;
+}

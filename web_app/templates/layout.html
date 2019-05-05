@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='{{url_for("static",filename="css/style.css")}}'
+              rel='stylesheet'
+              type="text/css">
+    </head>
+<body>
+    <nav class = 'navigation'>
+        <ul class='left'></ul>
+        <li><a href = '/' class = 'name'>+Back</a></li>
+        <ul class = 'right'></ul>
+        <li><a href = '/predict_price' class = 'name'>+PredictPhonePrice</a></li>
+
+
+    </nav>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
