@@ -1,2 +1,2 @@
 # Mobile_Price_Range_Project
-Run Main.py in web_app to get a website with local_host
+Run Main.py in to get a website with local_host
